@@ -1,0 +1,223 @@
+/*header*/
+section#home-header{
+margin-top:70px;
+}
+
+div#home-intro{
+    margin:0 20px 50px 20px;
+}
+
+div#purple-box{
+    width:126px;
+    height:105px;
+    background-color: #ae93cf;
+    position: absolute;
+    margin-top:110px;
+}
+
+div#disciplines-texts-container{
+    position:absolute;
+    padding:55px 0 0 45px;
+}
+
+h1.disciplines-text{
+    font-family: spartan, san-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+h1.disciplines-text:hover{
+    color:rgba(174, 147, 207, 1);
+    cursor:default;
+}
+
+h1#discipline-graphic{
+    color:rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding-left: 65px;
+}
+h1#discipline-graphic:hover{
+    color:rgba(0, 0, 0, 1);
+    -webkit-text-stroke-width: 0;
+    cursor:default;
+}
+
+div#disciplines-imgs-container{
+    position:relative;
+    overflow:hidden;
+    pointer-events: none;
+}
+
+div#discipline-img-mouse{
+    width:125px;
+    margin-left: -25px;
+}
+
+div#discipline-img-stationeries{
+    width:135px;
+    float:right;
+    margin:-100px -20px 0 0;
+}
+
+div#discipline-img-camera{
+    width:155px;
+    margin: 160px 0 0 -30px;
+}
+
+
+div#nav-subpages-container-index-pc{
+    display:none;
+}
+
+
+/*body*/
+div#best-works{
+    width:100%;
+    text-align:center;
+    margin-top:40px;
+}
+
+div.portfolio-thumbnail{
+    margin-bottom:20px;
+}
+
+div#about-me{
+    margin-top:50px;
+}
+
+div.button{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/*responsive*/
+@media all and (min-width: 800px){
+    /*header*/
+    div#nav-subpages-container{
+        display:none !important;
+    }
+    
+    section#home-header{
+        margin-top:0;
+    }
+
+    div#home-intro{
+        width: 570px;
+        text-align:center;
+        margin:0 auto 50px auto;
+    }
+
+    div#purple-box{
+        width:260px;
+        margin-top:215px;
+    }
+
+    div#disciplines-texts-container{
+        padding:100px 20px 0 120px;
+    }
+
+    h1.disciplines-text{
+        font-size: 50px;
+    }
+
+    h1#discipline-graphic{
+        padding-left: 110px;
+    }
+
+    div#discipline-img-mouse{
+        width:250px;
+        margin-left: -40px;
+    }
+    
+    div#discipline-img-stationeries{
+        width:240px;
+        margin:-200px -20px 0 0;
+    }
+    
+    div#discipline-img-camera{
+        width:230px;
+        margin: 150px 0 0 -80px;
+    }
+
+    div#nav-subpages-container-index-pc{
+        position:fixed;
+        display:block;
+        width:100%;
+        padding-top:50px;
+    }
+
+    div#nav-works-index-pc{
+        float:left;
+        margin-left:30px;
+    }
+    
+    div#nav-about-index-pc{
+        float:right;
+        margin-right:30px;
+    }
+
+    /*body*/
+div#best-works{
+    margin-top:100px;
+}
+
+div#about-me{
+    margin-top:100px;
+}
+}
+
+
+@media all and (min-width: 1200px){
+    /*header*/
+    div#purple-box{
+        width:35%;
+        margin-top:240px;
+    }
+
+    div#disciplines-texts-container{
+        padding:60px 50px 0 20%;
+    }
+
+    h1.disciplines-text{
+        font-size: 72px;
+        margin-bottom: 55px;
+    }
+
+    h1#discipline-graphic{
+        padding-left: 12vw;
+    }
+
+    div#discipline-img-mouse{
+        width:330px;
+        margin-left: -10px;
+    }
+    
+    div#discipline-img-stationeries{
+        width:310px;
+        margin:-310px 6vw 0 0;
+    }
+    
+    div#discipline-img-camera{
+        width:320px;
+        margin: 120px 0 0 -40px;
+    }
+
+    /*body*/
+div#best-works{
+    margin-top:130px;
+}
+
+div#about-me{
+    margin-top:150px;
+}
+}
+
+
+@media all and (min-width: 1600px){
+    /*header*/
+    div#discipline-img-camera{
+        margin-left:2.7vw;
+    }
+}

@@ -1,0 +1,34 @@
+div.centre-text-section{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+div.logo-container{
+    max-width:400px;
+    margin-bottom:30px;
+}
+
+div.webpage-screenshot{
+    max-width:500px;
+    margin-top:10px;
+}
+
+
+@media all and (min-width: 800px){
+    div.logo-container{
+        margin-top:20px;
+        margin-bottom:50px;
+    }
+
+    div.centre-text-section{
+        margin-bottom:50px;
+    }
+
+    div.webpage-screenshot{
+    margin-top:30px;
+    }
+}
+
+@media all and (min-width: 1400px){
+    
+}

@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Works | Jiacheng Liu</title>
+    <link rel="stylesheet" type="text/css" href="../general-style.css">
+    <link rel="stylesheet" type="text/css" href="works-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id='global-nav'>
+            <div id='nav-home-mobile-container'>
+                <div id='nav-home-mobile'>
+                    <a class='nav-text' href="../index.html">
+                        <img src="../index-assets/logo.png" alt="Jiacheng Liu">
+                    </a>
+                </div>
+            </div>
+            <div id='nav-subpages-container'>
+                <div id='nav-subpages-links-wrap'>
+                    <div class='nav-subpage-container nav-current-page' id='nav-works'>
+                        <a class='nav-text' href="works.html">WORKS</a>
+                    </div>
+                    <div class='nav-subpage-container' id='nav-about'>
+                        <a class='nav-text' href="../about/about.html">ABOUT</a>
+                    </div>
+                </div>
+            </div>
+            <div id='nav-home-pc'>
+                <a class='nav-text' href="../index.html">
+                    <img src="../index-assets/logo.png" alt="Jiacheng Liu">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section id='body-container'>
+        <div id='portfolio-container'>
+            <div id='portfolio-tabs-container'>
+                <button class='portfolio-tab portfolio-tab-all active' onclick="filterSelection('all')">
+                    <p class='general portfolio-tab-text'>ALL</p>
+                </button>
+                <button class='portfolio-tab portfolio-tab-UIX-Design'
+                    onclick="filterSelection('portfolio-UIX-Design')">
+                    <p class='general portfolio-tab-text'>UIX DESIGN</p>
+                </button>
+                <button class='portfolio-tab portfolio-tab-Graphic-Design'
+                    onclick="filterSelection('portfolio-Graphic-Design')">
+                    <p class='general portfolio-tab-text'>GRAPHIC DESIGN</p>
+                </button>
+                <button class='portfolio-tab portfolio-tab-Photography/Videography'
+                    onclick="filterSelection('portfolio-Photography/Videography')">
+                    <p class='general portfolio-tab-text'>PHOTOGRAPHY / VIDEOGRAPHY</p>
+                </button>
+            </div>
+
+            <div id='portfolio-links-wrap'>
+                <div class='portfolio-link-container portfolio-Graphic-Design portfolio-UIX-Design show'>
+                    <a class='portfolio-link' href="single-works/nac/nac.html">
+                        <div class='portfolio-thumbnail'>
+                            <img src="single-works/nac/assets/thumbnail.jpg" alt="">
+                        </div>
+                        <p class='general medium portfolio-link-title'>Dynamic Identity and Interactive Web Page for The National Arboretum Canberra</p>
+                    </a>
+                </div>
+                <div class='portfolio-link-container portfolio-Graphic-Design show'>
+                    <a class='portfolio-link' href="single-works/coco/coco.html">
+                        <div class='portfolio-thumbnail'>
+                            <img src="single-works/coco/assets/thumbnail.jpg" alt="">
+                        </div>
+                        <p class='general medium portfolio-link-title'>Rebranding for COCO Fresh Tea & Juice</p>
+                    </a>
+                </div>
+                <div class='portfolio-link-container portfolio-Graphic-Design portfolio-UIX-Design show'>
+                    <a class='portfolio-link' href="single-works/kabuki-branding/kabuki-branding.html">
+                        <div class='portfolio-thumbnail'>
+                            <img src="single-works/kabuki-branding/assets/thumbnail.jpg" alt="">
+                        </div>
+                        <p class='general medium portfolio-link-title'>ANU Za Kabuki Visual Identity & Website</p>
+                    </a>
+                </div>
+                <div class='portfolio-link-container portfolio-Photography/Videography show'>
+                    <a class='portfolio-link' href="single-works/kabuki-video/kabuki-video.html">
+                        <div class='portfolio-thumbnail'>
+                            <img src="single-works/kabuki-video/assets/thumbnail.jpg" alt="">
+                        </div>
+                        <p class='general medium portfolio-link-title'>ANU Za Kabuki Mirco Documentaries</p>
+                    </a>
+                </div>
+                <div class='portfolio-link-container portfolio-Photography/Videography show'>
+                    <a class='portfolio-link' href="single-works/Egypt/Egypt.html">
+                        <div class='portfolio-thumbnail'>
+                            <img src="single-works/Egypt/assets/thumbnail.jpg" alt="">
+                        </div>
+                        <p class='general medium portfolio-link-title'>Photography in Egypt</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <section id='footer'>
+            <div id='footer-mobile'>
+                <a class='footer-link footer-link-ph-mobile' href="tel:0468462516">
+                    <p class='general bold'>Call Me</p>
+                </a>
+                <a class='footer-link footer-link-email-mobile' href="mailto:oliviaorange0915@gmail.com">
+                    <p class='general bold'>Email Me</p>
+                </a>
+            </div>
+    
+            <div id='footer-pc'>
+                <a class='footer-link footer-link-home-pc' href="../index.html">
+                    <p class='large-link'>Jiacheng Liu</p>
+                </a>
+                <a class='footer-link footer-link-ph-pc' href="tel:0468462516">
+                    <p class='general bold'>Phone:
+                        <span class='general'>+61 468 462 516</span>
+                    </p>
+                </a>
+                <a class='footer-link footer-link-email-pc' href="mailto:oliviaorange0915@gmail.com">
+                    <p class='general bold'>Email:
+                        <span class='general'>oliviaorange0915@gmail.com</span>
+                    </p>
+                </a>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("portfolio-link-container");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        var btnContainer = document.getElementById("portfolio-tabs-container");
+        var btns = btnContainer.getElementsByClassName("portfolio-tab");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+</body>
+
+</html>

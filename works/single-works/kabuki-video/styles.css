@@ -1,0 +1,21 @@
+div.centre-text-section{
+    margin-top:30px;
+}
+
+div.text-image-section{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+
+@media all and (min-width: 800px){
+    div.centre-text-section{
+        margin-bottom:50px;
+    }
+}
+
+@media all and (min-width: 1400px){
+    div.text-image-section{
+        margin-bottom:75px;
+    }
+}

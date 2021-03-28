@@ -1,0 +1,22 @@
+div.photos-grid{
+    margin-bottom:-0.7vw;
+}
+
+
+@media all and (min-width: 800px){
+    div.photos-grid{
+        margin-bottom:-0.5vw;
+    }
+}
+
+@media all and (min-width: 1200px){
+    div.photos-grid{
+        margin-bottom:-4px;
+    }
+}
+
+@media all and (min-width: 1400px){
+    div.photos-grid{
+        margin-bottom:-2px;
+    }
+}
