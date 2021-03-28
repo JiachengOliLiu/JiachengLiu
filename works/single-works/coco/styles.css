@@ -4,9 +4,13 @@ div.centre-text-section{
 }
 
 div.logo-container{
-    max-width:250px;
+    max-width:200px;
     margin-top:75px;
-    margin-bottom:75px;
+    margin-bottom:60px;
+}
+
+div.logo-details{
+    margin-bottom:60px;
 }
 
 div.big-poster{
@@ -21,6 +25,11 @@ div.big-poster{
 
     div.logo-container{
         margin-top:30px;
+        margin-bottom:75px;
+    }
+
+    div.logo-details{
+        margin-bottom:80px;
     }
 }
 
