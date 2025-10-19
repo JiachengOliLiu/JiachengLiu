@@ -1,80 +1,85 @@
-p.portfolio-link-title{
-    margin:10px 0 30px 0;
+p.portfolio-link-title {
+    margin: 10px 0 30px 0;
 }
 
-div#portfolio-tabs-container{
-    max-width:570px;
-    margin:0 auto 50px auto;
+div#portfolio-tabs-container {
+    max-width: 570px;
+    margin: 0 auto 30px auto;
 }
 
-button{
-    display:block;
+button {
+    display: block;
     background: none;
-	color: inherit;
+    color: inherit;
     border: none;
     margin: 0 0 5px 0;
-    padding:0;
-	font: inherit;
+    padding: 0;
+    font: inherit;
     outline: inherit;
-    height:36px;
+    height: 36px;
 }
 
-button.active{
-    border-bottom:2px solid black;
+p.portfolio-tab-text {
+    font-size:14px;
+    letter-spacing: 1px;
 }
 
-button.active p{
-    font-weight:600;
+button.active {
+    border-bottom: 2px solid black;
 }
 
-div.portfolio-link-container{
-    display:none;
+button.active p {
+    font-weight: 600;
+}
+
+div.portfolio-link-container {
+    display: none;
 }
 
 div.show {
     display: block !important;
-  }
+}
 
 
-@media all and (min-width: 800px){
+@media all and (min-width: 800px) {
 
-    p.portfolio-link-title{
-        margin:10px 0 50px 0;
+    p.portfolio-link-title {
+        margin: 10px 0 50px 0;
     }
 
-    div#portfolio-tabs-container{
-        max-width:100%;
-        margin:0 auto 75px auto;
-        text-align:center;
+    div#portfolio-tabs-container {
+        max-width: 100%;
+        margin: 0 auto 50px auto;
+        text-align: center;
     }
 
-    button{
-        display:inline-block;
+    button {
+        display: inline-block;
         margin: 0 15px;
-        height:41px;
+        height: 41px;
     }
 
     div.show {
         display: inline-block !important;
-      }
+    }
 
-      div#portfolio-links-wrap{
-          width:68.5vw;
-          margin:0 auto;
-      }
-}
-
-
-
-@media all and (min-width: 1200px){
-    button{
-        margin: 0 25px;
+    div#portfolio-links-wrap {
+        width: 68.5vw;
+        margin: 0 auto;
     }
 }
 
 
-@media all and (min-width: 1600px){
-    div#portfolio-links-wrap{
-        width:1145px;
+
+@media all and (min-width: 1200px) {
+    button {
+        margin: 0 20px;
+    }
+}
+
+
+@media all and (min-width: 1600px) {
+    div#portfolio-links-wrap {
+        width: 1145px;
     }
 }

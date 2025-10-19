@@ -12,7 +12,7 @@ div#purple-box{
     height:105px;
     background-color: #ae93cf;
     position: absolute;
-    margin-top:110px;
+    margin-top:100px;
 }
 
 div#disciplines-texts-container{
@@ -21,10 +21,11 @@ div#disciplines-texts-container{
 }
 
 h1.disciplines-text{
-    font-family: spartan, san-serif;
+    font-family: Red Hat Text, san-serif;
     font-weight: 700;
-    font-size: 24px;
-    margin-bottom: 50px;
+    font-size: 32px;
+    margin-bottom: 5px;
+    margin-top: 0;
 }
 h1.disciplines-text:hover{
     color:rgba(174, 147, 207, 1);
@@ -119,7 +120,8 @@ div.button{
     }
 
     h1.disciplines-text{
-        font-size: 50px;
+        font-size: 68px;
+        margin-top: 15px;
     }
 
     h1#discipline-graphic{
@@ -173,7 +175,7 @@ div#about-me{
     /*header*/
     div#purple-box{
         width:35%;
-        margin-top:240px;
+        margin-top:210px;
     }
 
     div#disciplines-texts-container{
@@ -181,8 +183,8 @@ div#about-me{
     }
 
     h1.disciplines-text{
-        font-size: 72px;
-        margin-bottom: 55px;
+        font-size: 84px;
+        margin-bottom: 20px;
     }
 
     h1#discipline-graphic{

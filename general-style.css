@@ -15,7 +15,7 @@ body{
 }
 
 p.general, span.general{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -24,7 +24,7 @@ p.general, span.general{
 }
 
 p.bold{
-    font-weight: 700 !important;
+    font-weight: 500 !important;
 }
 
 p.medium{
@@ -32,24 +32,24 @@ p.medium{
 }
 
 h2{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
     font-size: 22px;
     line-height:28px;
     margin:0 0 15px 0;
 }
 
 h3{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
     font-size: 18px;
     line-height:22px;
     margin:0 0 20px 0;
 }
 
 h4{
-    font-family: 'Spartan', sans-serif;
-    font-weight: 700;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
     font-size: 14px;
     line-height:18px;
     margin:0 0 20px 0;
@@ -71,9 +71,10 @@ nav#global-nav{
 }
 
 a.nav-text{
-    font-family: 'Spartan', sans-serif;
-    font-weight: 500;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 400;
     font-size: 12px;
+    letter-spacing: 1px;
     color: #000000;
 }
 
@@ -82,7 +83,7 @@ div.nav-current-page{
 }
 
 div.nav-current-page a.nav-text{
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
@@ -163,9 +164,10 @@ div.button{
 }
 
 p.button-text{
-    font-family:'Spartan', sans-serif;
+    font-family:'Red Hat Text', sans-serif;
     font-weight: 700;
     font-size: 12px;
+    letter-spacing: 1px;
     color:black;
     margin-top:14px;
 }
@@ -212,7 +214,7 @@ div.centred-image-container{
 }
 
 p.caption{
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -270,7 +272,7 @@ div.half-size-text{
 
     /*nav*/
     nav#global-nav{
-        height:150px;
+        height:100px;
         margin: 50px 0 0 0;
     }
 
@@ -293,7 +295,7 @@ a.nav-text{
 }
 
 p.large-link{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -410,11 +412,11 @@ section.single-work-body-container h3{
 
     /*nav*/
     nav#global-nav{
-        height:200px;
+        height:150px;
     }
 
     div#nav-home-pc{
-        width:550px;
+        width:500px;
     }
 
     /*footer*/
