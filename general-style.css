@@ -496,7 +496,11 @@ div.two-images-section{
     display:flex;
 }
 div.two-images-section-gap{
-    width:30px;
+    width:5px;
+}
+
+div.image-gap-bottom{
+    margin-bottom:10px;
 }
 }
 

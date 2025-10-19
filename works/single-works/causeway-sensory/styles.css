@@ -1,0 +1,23 @@
+div.centre-text-section{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+div.logo-container{
+    max-width:400px;
+}
+
+div.centred-image-specific-class{
+    max-width:600px;
+}
+
+
+@media all and (min-width: 800px){
+    div.centre-text-section{
+        margin-bottom:50px;
+    }
+}
+
+@media all and (min-width: 1400px){
+    
+}
