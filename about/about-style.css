@@ -70,6 +70,7 @@ div.skills-texts{
 
 @media all and (min-width: 1600px){
     div#skills{
+        margin:0 120px 100px 120px;
         text-align:left;
     }
     div#skills-title{
